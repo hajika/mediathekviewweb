@@ -573,7 +573,7 @@ function createVideoRow(text, url, videoTitle, filename, filesize) {
         }
     });
 
-    let watchIcon = $('<i>').addClass('material-icons floatLeft').text('ondemand_video');
+    let watchIcon = $('<i>').addClass('material-icons floatLeft').text('watch');
     watchButton.append(watchIcon);
 
     let downloadButton = $('<a>', {
